@@ -1,0 +1,199 @@
+01 
+
+a = input("Digite o primeiro numero ")# a variavel a esta recebendo o valor digitado pelo input do usuario após escrever uma mensagem
+b = input("Digite o segundo numero ")# a variavel b esta recebendo o valor digitado pelo input do usuario após escrever uma mensagem
+if b > a: #se o valor de b for maior que o valor de a, faça
+ print(b) # escrever o valor de b na tela
+elif b == a:#senão se b for igual a `a` então
+ print("Os numeros são iguais")# escreve na tela uma mensagem "os numeros sao iguais"
+else:# senão (negando que b seja maior que a ou que seja igual a 'a')
+  print(a)# escrever na tela o valor de a
+
+
+02
+
+numero = input("digite o numero")
+if numero > 0:
+ print("o numero e positivo")
+elif == 0:
+ print("o numero e digitado e 0")
+else:
+ print("o numero e negativo")
+
+
+03
+
+sexo = input("digite seu sexo: M para masculino ou F para feminino")
+if sexo == "m" or sexo == "M":
+ print("sexo masculino")
+elif sexo == "f" or sexo == "F":
+ print("sexo feminino")
+else:
+ print("sexo invalido")
+
+
+
+
+04
+
+letra = input("digite uma letra")
+if letra == "a" or letra == "A":
+ print("e uma vogal")
+elif letra == "e" or letra == "E":
+ print("e uma vogal")
+elif letra == "i" or letra == "I":
+ print("e uma vogal")
+elif letra == "o" or letra == "O":
+ print("e uma vogal")
+elif letra == "u" or letra == "U":
+ print("e uma vogal")
+else:
+ print("nao e uma vogal")
+
+
+
+
+05
+
+parcial1 = int(input("digite a primeira parcial") )
+parcial2 = int(input("digite a segunda parcial") )
+media = (parcial1 + parcial2) /2
+if media == 10:
+ print("aprovado com distincao")
+elif media >= 7:
+ print("aprovado")
+else:
+ print("reprovado")
+
+
+
+
+06
+
+a = float(input("insira o primeiro numero"))
+b = float(input("insira o segundo numero"))
+c = float(input("insira o terceiro numero"))
+maior = 8
+menor = 5
+if a > b and a > c and b > c:
+ print("a", a, "b", b, "c", c)
+elif b > a and b > c and c > a:
+ print("b", b, "c", c, "a", a)
+elif c > b and c > a and a > b:
+ print("c", c, "a", a, "b", b)
+if a > b and a > c and b < c:
+ print("a", a, "c", c, "b", b)
+elif b > c and b > a and a > c:
+ print("b", b, "a", a, "c", c)
+elif c > b and c > a and b > a:
+ print("c", c, "b", b, "a", a)
+
+
+
+
+07
+
+a = intup("insira o primeiro numero")
+b = intup("insira o segundo numero")
+c = intup("insira o terceiro numero")
+if a > b > c :
+maior = a 
+elif b > a > c :
+maior = b 
+elif c > b > a :
+maior = c 
+ print("numero maior", maior)
+if a < b < c :
+menor = a 
+elif b < a < c :
+menor = b 
+elif c < b < a :
+menor = c 
+ print("numero menor", menor)
+
+
+
+
+08
+
+a = float(input("Insira o preco do primeiro numero"))
+b = float(input("insira o preco do segundo numero"))
+c = float(input("Insira o preco do terceiro numero"))
+if a < b and a < c:
+ print("a")
+elif  b < a and b < c:
+ print("b")
+elif  c < a and c < b:
+ print("c")
+else:
+ print("Produto com o menor preco"
+
+
+
+
+09
+
+a = input("Digite o primeiro número")
+b = input("Digite o segundo número")
+c = input("Digite o terceiro número")
+if a > b and b > c:
+ print("Os números em ordem decrescente", a, b, c)
+elif a > c and c > b:
+ print("Os números em ordem decrescente", a, c, b)
+elif b > a and a > c:
+ print("Os números em ordem decrescente", b, a, c)
+elif b > c and c > a:
+ print("Os números em ordem decrescente", b, c, a)
+elif c > a and a > b:
+  print("Os números em ordem decrescente", c, a, b)
+else:
+  print("Os números em ordem decrescente", c, b, a)
+
+
+
+
+10
+a = input("insira o turno de estudo: M-matutino V-vespertino N-noturno")
+if a == "m" or a == "M":
+ print("bom dia")
+elif a == "v" or a == "V":
+ print("boa tarde")
+elif a == "n" or a == "N":
+ print("boa noite")
+else:
+ print("valor invalido")
+
+
+
+
+11
+
+num1 = input("insira o primeiro numero")
+num2 = input("insira o segundo numero")
+if num1 > num2:
+ print("o num1 é o maior")
+elif num2 > num1:
+ print("o num2 é o maior")
+
+
+
+
+12
+
+dia = int (input ("Digite um Número até 7"))
+if dia == 1:
+ print("Domingo")
+elif dia == 2:
+ print("Segunda-feira")
+elif dia == 3:
+ print("Terça-feira")
+elif dia == 4:
+ print("Quarta-feira")
+elif dia == 5:
+ print("Quinta-feira")
+elif dia == 6:
+ print("Sexta-feira")
+elif dia == 7:
+ print("Sábado")
+else:
+ print("Número Inválido")
